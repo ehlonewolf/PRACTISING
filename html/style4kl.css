@@ -1,0 +1,27 @@
+body {
+	background: whitesmoke;
+	font-family: Georgia, Georgia neue, Georgia Blue;
+}
+
+h1, h2, p, li {
+	color:  black;
+}
+
+a {
+	color: lightpink;
+}
+p {
+	background-color:;
+	color:  navy;
+	padding:  10px 10px 10px 10px;
+}
+
+.secondary {
+	background-color: none;
+	color: darkgoldenred;
+}
+
+#special{
+	background-color: darkred;
+	color: lightpink;
+}
