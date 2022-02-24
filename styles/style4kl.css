@@ -1,20 +1,40 @@
 body {
-	background: whitesmoke;
-	font-family: Georgia, Georgia neue, Georgia Blue;
+	background: floralwhite;
+	font-family: Baskerville ;
+	font-size: 16px;
+	padding:  50px;
 }
 
-h1, h2, h3, p, li {
-	font-family:  Helvetica Bold;
-	color:  black;
+h1, h2, h3, p, {
+	font-family:  Georgia;
+}
+
+h1{
+	color: grey;
+/*	font-size: 32px;*/
+}
+
+h2{
+	color:  lightpink;
+}
+i {
+	color: navy;
 }
 
 a {
 	color: lightpink;
 }
+
+li {
+	color: navy;
+}
+
 p {
-	background-color:;
 	color:  navy;
-	padding:  10px 10px 10px 10px;
+	line-height: 1.4em;
+	padding: 10px ;
+
+
 }
 
 .secondary {
@@ -26,3 +46,32 @@ p {
 	background-color: darkred;
 	color: lightpink;
 }
+
+.page{
+	border:  0.5px transparent lightpink;
+	background-color: cornflowerblue;
+
+	padding: inherit;
+}
+
+input {
+	padding:  6px  12px 6px 12px;
+	border: 1px solid light blue;
+	color: skyblue;}
+input.submit:hover {
+	background-color: whitesmoke;
+}
+input.submit:active {
+	background-color: chocolate;
+}
+input.text {
+	color: deepskyblue;
+}
+input.text.focus {
+	color: blue;
+}
+
+
+
+
+
