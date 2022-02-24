@@ -3,7 +3,8 @@ body {
 	font-family: Georgia, Georgia neue, Georgia Blue;
 }
 
-h1, h2, p, li {
+h1, h2, h3, p, li {
+	font-family:  Helvetica Bold;
 	color:  black;
 }
 
