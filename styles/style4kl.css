@@ -17,6 +17,7 @@ h1{
 h2{
 	color:  lightpink;
 }
+
 i {
 	color: navy;
 }
@@ -27,6 +28,10 @@ a {
 
 li {
 	color: navy;
+	display: inline-block;
+	margin-right: 20px;
+	margin-top: 10px;
+
 }
 
 p {
