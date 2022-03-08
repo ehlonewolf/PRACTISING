@@ -6,11 +6,108 @@
 	</head>
 	<body>
 	<h1 align="center"> You</h1>
+	<nav>
 		<ul>
 			<li><a href="index.html">Heart<a/></li>
 			<li> Mind </li>
 			<li><a href="pageone.html">Soul</a></li>
 		</ul>
+	</nav>
+		<hr>
+		<style>
+  div {
+    border-radius: 20px;
+    width: 70%;
+    height: 400px;
+    margin: 50px auto;
+    background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
+
+  }
+
+  .ball {
+    width: 40px;
+    height: 40px;
+    margin: 50 auto;
+    position: fixed;
+    background: linear-gradient(
+      35deg,
+      #ccffff,
+      #ffcccc
+    );
+    border-radius: 50%;
+  }
+  #ball1 {
+    left: 20%;
+  }
+  #ball2 {
+    transform: scale(1.5);
+    left: 65%;
+
+  }
+<div class="ball" id= "ball1"></div>
+<div class="ball" id= "ball2"></div>
+</style>
+<style>
+  .heart {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: pink;
+    height: 50px;
+    width: 50px;
+    transform: rotate(-45deg);
+  }
+  .heart::after {
+    background-color: pink;
+    content: "";
+    border-radius: 50%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0px;
+    left: 25px;
+  }
+  .heart::before {
+    content: "";
+    background-color: pink;
+    border-radius: 50%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: -25px;
+    left: 0px;
+  }
+    #rect {
+animation-name: rainbow;
+animation-duration: infinite;
+
+  }
+@keyframes rainbow {
+  0% {
+    background-color: pink;
+  }
+  100% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: green;
+  }
+}
+
+
+</style>
+<div class="heart"></div>
+<div></div>
+
+<hr>
+<audio controls>
+  <source src="https://s3.amazonaws.com/freecodecamp/screen-reader.mp3" type="audio/mpeg"> 
+</audio>
+
+
 		<hr />
 <!-- 			//02.21.22 -->
 			<h2> Thank Your For Today, </h2>

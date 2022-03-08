@@ -7,11 +7,22 @@ body {
 
 h1, h2, h3, p, {
 	font-family:  Georgia;
+	position: relative;
+	display: flex;
 }
 
 h1{
-	color: grey;
+	color: cornflowerblue;
 /*	font-size: 32px;*/
+  .thick-blue-border 
+    border-width: 500px;
+    border-style: solid;
+    border-radius: 50%;
+ 
+}
+h1:hover {
+	transform: scale(1.1);
+	display: center;
 }
 
 h2{
@@ -25,6 +36,9 @@ i {
 a {
 	color: lightpink;
 }
+a:hover {
+    color: blue;
+  }
 
 li {
 	color: navy;
@@ -41,6 +55,10 @@ p {
 
 
 }
+div:hover{
+      transform: scale(1.1);
+    }
+
 
 .secondary {
 	background-color: none;
